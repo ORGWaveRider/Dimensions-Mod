@@ -5,7 +5,7 @@
 	"name": "dimensions",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"Wave_Rider_"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.waverider.Dimensions"
+			"com.waverider.Main"
 		],
 		"client": [
 			"com.waverider.DimensionsClient"
