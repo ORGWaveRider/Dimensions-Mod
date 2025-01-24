@@ -1,6 +1,6 @@
 package com.waverider;
 
-import com.waverider.Items.TestItem;
+import com.waverider.Dimensions.Dimensions;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,6 +17,7 @@ public class Main implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// Register things here
-		TestItem.init();
+		Dimensions.loadDimensions();
+		Dimensions.loadItems();
 	}
 }

@@ -11,8 +11,4 @@ public class RDimension {
     public static void registerDimension(RegistryKey<DimensionType> type, DimensionType options) {
         context.register(type, options);
     }
-
-    public static void initialize() {
-
-    }
 }
