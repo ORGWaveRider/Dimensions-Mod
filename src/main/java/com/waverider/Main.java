@@ -19,5 +19,6 @@ public class Main implements ModInitializer {
 		// Register things here
 		Dimensions.loadDimensions();
 		Dimensions.loadItems();
+		Dimensions.loadBlocks();
 	}
 }
