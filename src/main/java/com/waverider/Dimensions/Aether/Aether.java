@@ -35,5 +35,10 @@ public class Aether {
                 1.0f,
                 new DimensionType.MonsterSettings(false, false, UniformIntProvider.create(0, 0), 0)
         ));
+        CustomPortalBuilder.beginPortal()
+                .frameBlock(Blocks.BAMBOO_BLOCK)
+                .customFrameTester(Identifier.of(Main.MOD_ID, "test_custom_portal"))
+                .tintColor(0, 102, 255)
+                .customIgnitionSource(Identifier.of(Main.MOD_ID, "test_custom_portal_ignition"));
     }
 }
